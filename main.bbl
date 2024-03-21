@@ -1,0 +1,379 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{SuperMario64}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=073b7e4ff1d153a52b07eadb5898cb92}{%
+           family={{Nintendo}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{073b7e4ff1d153a52b07eadb5898cb92}
+      \strng{fullhash}{073b7e4ff1d153a52b07eadb5898cb92}
+      \strng{bibnamehash}{073b7e4ff1d153a52b07eadb5898cb92}
+      \strng{authorbibnamehash}{073b7e4ff1d153a52b07eadb5898cb92}
+      \strng{authornamehash}{073b7e4ff1d153a52b07eadb5898cb92}
+      \strng{authorfullhash}{073b7e4ff1d153a52b07eadb5898cb92}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.nintendo.de/Spiele/Nintendo-64/Super-Mario-64-269745.html}}
+      \field{note}{Last accessed 2023-07-26}
+      \field{title}{{Super Mario 64}}
+      \field{year}{1996}
+      \keyw{game}
+    \endentry
+    \entry{SpeedrunDotCom}{online}{}
+      \name{author}{1}{}{%
+        {{hash=585d4cf206e0691947cfe0e50f3c7a17}{%
+           family={Speedrun.com},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{585d4cf206e0691947cfe0e50f3c7a17}
+      \strng{fullhash}{585d4cf206e0691947cfe0e50f3c7a17}
+      \strng{bibnamehash}{585d4cf206e0691947cfe0e50f3c7a17}
+      \strng{authorbibnamehash}{585d4cf206e0691947cfe0e50f3c7a17}
+      \strng{authornamehash}{585d4cf206e0691947cfe0e50f3c7a17}
+      \strng{authorfullhash}{585d4cf206e0691947cfe0e50f3c7a17}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Speedrun.com - Super Mario 64}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.speedrun.com/sm64
+      \endverb
+      \verb{url}
+      \verb https://www.speedrun.com/sm64
+      \endverb
+      \keyw{online}
+    \endentry
+    \entry{speedrun}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2a825cc7e8ae02aa572df17a9f95c950}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Nate},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a825cc7e8ae02aa572df17a9f95c950}
+      \strng{fullhash}{2a825cc7e8ae02aa572df17a9f95c950}
+      \strng{bibnamehash}{2a825cc7e8ae02aa572df17a9f95c950}
+      \strng{authorbibnamehash}{2a825cc7e8ae02aa572df17a9f95c950}
+      \strng{authornamehash}{2a825cc7e8ae02aa572df17a9f95c950}
+      \strng{authorfullhash}{2a825cc7e8ae02aa572df17a9f95c950}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Video Game Speedruns Explained}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://history-computer.com/video-game-speedruns-explained/
+      \endverb
+      \verb{url}
+      \verb https://history-computer.com/video-game-speedruns-explained/
+      \endverb
+      \keyw{online}
+    \endentry
+    \entry{Sm64Speed}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b373911bb07fe73dc3523d339071b9f0}{%
+           family={Quick},
+           familyi={Q\bibinitperiod},
+           given={Games\bibnamedelima Done},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b373911bb07fe73dc3523d339071b9f0}
+      \strng{fullhash}{b373911bb07fe73dc3523d339071b9f0}
+      \strng{bibnamehash}{b373911bb07fe73dc3523d339071b9f0}
+      \strng{authorbibnamehash}{b373911bb07fe73dc3523d339071b9f0}
+      \strng{authornamehash}{b373911bb07fe73dc3523d339071b9f0}
+      \strng{authorfullhash}{b373911bb07fe73dc3523d339071b9f0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Super Mario 64 by Simply in 1:40:17 - Summer Games Done Quick 2022}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=hFZEBrFfoUo&t=6254s
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=hFZEBrFfoUo&t=6254s
+      \endverb
+      \keyw{online}
+    \endentry
+    \entry{swink2008game}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f2deb65655f83a71ad7ee21ffdbe0329}{%
+           family={Swink},
+           familyi={S\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC press}%
+      }
+      \strng{namehash}{f2deb65655f83a71ad7ee21ffdbe0329}
+      \strng{fullhash}{f2deb65655f83a71ad7ee21ffdbe0329}
+      \strng{bibnamehash}{f2deb65655f83a71ad7ee21ffdbe0329}
+      \strng{authorbibnamehash}{f2deb65655f83a71ad7ee21ffdbe0329}
+      \strng{authornamehash}{f2deb65655f83a71ad7ee21ffdbe0329}
+      \strng{authorfullhash}{f2deb65655f83a71ad7ee21ffdbe0329}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Game feel: a game designer's guide to virtual sensation}
+      \field{year}{2008}
+    \endentry
+    \entry{rigging}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8348dab5304a9e6246f79472ab6ceba5}{%
+           family={LLC},
+           familyi={L\bibinitperiod},
+           given={Pluralsight},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8348dab5304a9e6246f79472ab6ceba5}
+      \strng{fullhash}{8348dab5304a9e6246f79472ab6ceba5}
+      \strng{bibnamehash}{8348dab5304a9e6246f79472ab6ceba5}
+      \strng{authorbibnamehash}{8348dab5304a9e6246f79472ab6ceba5}
+      \strng{authornamehash}{8348dab5304a9e6246f79472ab6ceba5}
+      \strng{authorfullhash}{8348dab5304a9e6246f79472ab6ceba5}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is 3D rigging?}
+      \field{urlday}{27}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.pluralsight.com/blog/film-games/key-rigging-terms-get-moving
+      \endverb
+      \verb{url}
+      \verb https://www.pluralsight.com/blog/film-games/key-rigging-terms-get-moving
+      \endverb
+      \keyw{online}
+    \endentry
+    \entry{retarget}{online}{}
+      \name{author}{1}{}{%
+        {{hash=458bc88bbe8feb870616791eae79a483}{%
+           family={Games},
+           familyi={G\bibinitperiod},
+           given={Epic},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{458bc88bbe8feb870616791eae79a483}
+      \strng{fullhash}{458bc88bbe8feb870616791eae79a483}
+      \strng{bibnamehash}{458bc88bbe8feb870616791eae79a483}
+      \strng{authorbibnamehash}{458bc88bbe8feb870616791eae79a483}
+      \strng{authornamehash}{458bc88bbe8feb870616791eae79a483}
+      \strng{authorfullhash}{458bc88bbe8feb870616791eae79a483}
+      \field{extraname}{1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{IK Rig Retargeting}
+      \field{urlday}{27}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.unrealengine.com/5.1/en-US/ik-rig-animation-retargeting-in-unreal-engine/
+      \endverb
+      \verb{url}
+      \verb https://docs.unrealengine.com/5.1/en-US/ik-rig-animation-retargeting-in-unreal-engine/
+      \endverb
+      \keyw{online}
+    \endentry
+    \entry{DonkeyKong64}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a2cc588f2ab07ad61b05400f593eeb0a}{%
+           family={{Rare}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2cc588f2ab07ad61b05400f593eeb0a}
+      \strng{fullhash}{a2cc588f2ab07ad61b05400f593eeb0a}
+      \strng{bibnamehash}{a2cc588f2ab07ad61b05400f593eeb0a}
+      \strng{authorbibnamehash}{a2cc588f2ab07ad61b05400f593eeb0a}
+      \strng{authornamehash}{a2cc588f2ab07ad61b05400f593eeb0a}
+      \strng{authorfullhash}{a2cc588f2ab07ad61b05400f593eeb0a}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.nintendo.de/Spiele/Nintendo-64/Donkey-Kong-64-269459.html}}
+      \field{note}{Last accessed 2023-07-26}
+      \field{title}{{Donkey Kong 64}}
+      \field{year}{1999}
+      \keyw{game}
+    \endentry
+    \entry{BanjoKazooie}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a2cc588f2ab07ad61b05400f593eeb0a}{%
+           family={{Rare}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2cc588f2ab07ad61b05400f593eeb0a}
+      \strng{fullhash}{a2cc588f2ab07ad61b05400f593eeb0a}
+      \strng{bibnamehash}{a2cc588f2ab07ad61b05400f593eeb0a}
+      \strng{authorbibnamehash}{a2cc588f2ab07ad61b05400f593eeb0a}
+      \strng{authornamehash}{a2cc588f2ab07ad61b05400f593eeb0a}
+      \strng{authorfullhash}{a2cc588f2ab07ad61b05400f593eeb0a}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.xbox.com/de-DE/games/store/banjo-kazooie/bsjg7ttswvj2}}
+      \field{note}{Last accessed 2023-07-26}
+      \field{title}{{Banjo Kazooie}}
+      \field{year}{1998}
+      \keyw{game}
+    \endentry
+    \entry{gdc}{online}{}
+      \name{author}{1}{}{%
+        {{hash=339858e00bf6afd7ef35f791be09d802}{%
+           family={GDC},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{339858e00bf6afd7ef35f791be09d802}
+      \strng{fullhash}{339858e00bf6afd7ef35f791be09d802}
+      \strng{bibnamehash}{339858e00bf6afd7ef35f791be09d802}
+      \strng{authorbibnamehash}{339858e00bf6afd7ef35f791be09d802}
+      \strng{authornamehash}{339858e00bf6afd7ef35f791be09d802}
+      \strng{authorfullhash}{339858e00bf6afd7ef35f791be09d802}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Math for Game Programmers: Building a Better Jump}
+      \field{urlday}{27}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=hG9SzQxaCm8&t=461s
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=hG9SzQxaCm8&t=461s
+      \endverb
+      \keyw{online}
+    \endentry
+    \entry{gameMakerTool}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bc5cde1db41a83a3805fe9b6a930df13}{%
+           family={Toolkit},
+           familyi={T\bibinitperiod},
+           given={Game\bibnamedelima Maker's},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc5cde1db41a83a3805fe9b6a930df13}
+      \strng{fullhash}{bc5cde1db41a83a3805fe9b6a930df13}
+      \strng{bibnamehash}{bc5cde1db41a83a3805fe9b6a930df13}
+      \strng{authorbibnamehash}{bc5cde1db41a83a3805fe9b6a930df13}
+      \strng{authornamehash}{bc5cde1db41a83a3805fe9b6a930df13}
+      \strng{authorfullhash}{bc5cde1db41a83a3805fe9b6a930df13}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why Does Celeste Feel So Good to Play?}
+      \field{urlday}{27}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.patreon.com/posts/28582857
+      \endverb
+      \verb{url}
+      \verb https://www.patreon.com/posts/28582857
+      \endverb
+      \keyw{online}
+    \endentry
+    \entry{dataAsset}{online}{}
+      \name{author}{1}{}{%
+        {{hash=458bc88bbe8feb870616791eae79a483}{%
+           family={Games},
+           familyi={G\bibinitperiod},
+           given={Epic},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{458bc88bbe8feb870616791eae79a483}
+      \strng{fullhash}{458bc88bbe8feb870616791eae79a483}
+      \strng{bibnamehash}{458bc88bbe8feb870616791eae79a483}
+      \strng{authorbibnamehash}{458bc88bbe8feb870616791eae79a483}
+      \strng{authornamehash}{458bc88bbe8feb870616791eae79a483}
+      \strng{authorfullhash}{458bc88bbe8feb870616791eae79a483}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{UDataAsset}
+      \field{urlday}{27}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/UDataAsset/
+      \endverb
+      \verb{url}
+      \verb https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/UDataAsset/
+      \endverb
+      \keyw{online}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
