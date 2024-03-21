@@ -1,100 +1,48 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%2345678901234567890123456789012345678901234567890123456789012345678901234567890
-%        1         2         3         4         5         6         7         8
-
-\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out
-                                                          % if you need a4paper
-%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4
-                                                          % paper
-
-\IEEEoverridecommandlockouts                              % This command is only
-                                                          % needed if you want to
-                                                          % use the \thanks command
-\overrideIEEEmargins
-% See the \addtolength command later in the file to balance the column lengths
-% on the last page of the document
-
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-% ref packages
-%\usepackage{nameref}
-%\usepackage{varioref}
-% \usepackage{hyperref}
-\usepackage[hyphens,spaces,obeyspaces]{url} % Fixes long URLs
-\usepackage{hyperref} % Let URLs be clickable and lead to the website
-\usepackage{hhline} % <-- Add this line to use hhline package
-\usepackage{booktabs}
-\usepackage{colortbl}
-\usepackage{xcolor}
-% \usepackage{enumitem} % Let enumerations start with the alphabet
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
 \usepackage{graphicx}
-\usepackage{floatrow}
-\usepackage{float}
-\usepackage{aliascnt}
+\usepackage{textcomp}
+\usepackage{xcolor}
 \usepackage{multirow} % Tables
-\usepackage{array}
-\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
-\usepackage{authblk} % For the author section 
-\usepackage{caption} % advanced captions
-\usepackage{amsmath}
-%Mathebib
-\RequirePackage{amsmath}
-\RequirePackage{amssymb}
-\usepackage[
-style=ieee, % Zitierstil
-isbn=false,
-doi=false,
-url=false,
-pagetracker=true,
-%autocite=inline,  % regelt Aussehen für \autocite (inline=\parancite)
-block=space,               
-backref=false,
-backrefstyle=three+,
-date=year,
-backend=biber
-]{biblatex}
-\addbibresource{literature.bib}
-\renewcommand*{\bibfont}{\small}
+\usepackage{booktabs}
+\usepackage{caption}  % for controlling caption formatting
+\usepackage{tabularx} % for controlling table width
+\usepackage{url}
 
-% The following packages can be found on http:\\www.ctan.org
-%\usepackage{graphics} % for pdf, bitmapped graphics files
-%\usepackage{epsfig} % for postscript graphics files
-%\usepackage{mathptmx} % assumes new font selection scheme installed
-%\usepackage{mathptmx} % assumes new font selection scheme installed
-%\usepackage{amsmath} % assumes amsmath package installed
-%\usepackage{amssymb}  % assumes amsmath package installed
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
-\title{\LARGE \bf
-Generating Movement Flow in 3D Jump'n Runs
-}
-
-\author{Tobias Brandner}
-
-\affil{Julius-Maximilians University \\
-        Würzburg, Germany \\
-        tobias.brandner@stud-mail.uni-wuerzburg.de}
-
-%\author{Huibert Kwakernaak$^{1}$ and Pradeep Misra$^{2}$% <-this % stops a space
-%\thanks{*This work was not supported by any organization}% <-this % stops a space
-%\thanks{$^{1}$H. Kwakernaak is with Faculty of Electrical Engineering, Mathematics and Computer Science,
-    %    University of Twente, 7500 AE Enschede, The Netherlands
-     %   {\tt\small h.kwakernaak at papercept.net}}%
-%\thanks{$^{2}$P. Misra is with the Department of Electrical Engineering, Wright State University,
-      %  Dayton, OH 45435, USA
-       % {\tt\small p.misra at ieee.org}}%
-%}
+% Adjust caption font size and alignment
+\captionsetup[table]{font=small, labelfont=bf}
 
 
 \begin{document}
+
+\title{Generating Movement Flow in 3D Jump'n Runs}
+
+\author{\IEEEauthorblockN{Tobias Brandner}
+\IEEEauthorblockA{\textit{Julius Maximilian University} \\
+Würzburg, Germany \\
+tobias.brandner@\\stud-mail.uni-wuerzburg.de}
+\and
+\IEEEauthorblockN{Marc Mußmann}
+\IEEEauthorblockA{\textit{Julius Maximilian University} \\
+Würzburg, Germany \\
+marc.mussmann@\\stud-mail.uni-wuerzburg.de}
+\and
+\IEEEauthorblockN{Sebastian von Mammen}
+\IEEEauthorblockA{\textit{Julius Maximilian University} \\
+Würzburg, Germany \\
+sebastian.von.mammen@\\uni-wuerzburg.de}
+}
+
 \maketitle
-\thispagestyle{empty}
-\pagestyle{empty}
 
-\BiblatexSplitbibDefernumbersWarningOff
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-
     This research examines the flow of movement in 3D Jump'n Run games, focusing on the control and interaction of the player character in a simulated space. 
     The study compares various motion mechanics and presets from popular games such as Super Mario 64, Donkey Kong 64, and Banjo Kazooie, as well as our own game called Boss'n Run. 
     The study involves the creation of a dynamic player character using Blender and Unreal Engine 5. 
@@ -102,9 +50,11 @@ Generating Movement Flow in 3D Jump'n Runs
     The paper presents an evaluation method that involves collecting data from the games, comparing motion parameters, and obtaining feedback from 14 participants who played obstacle courses with different movement presets. 
     Results show that Boss'n Run and Banjo Kazooie received positive feedback, while the Super Mario 64 preset performed poorly. 
     Future work includes analyzing more movement options and implementing additional movement states, such as swimming, to further investigate the flow of movement in 3D platformers.
-    
 \end{abstract}
 
+\begin{IEEEkeywords}
+component, formatting, style, styling, insert
+\end{IEEEkeywords}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
@@ -115,7 +65,7 @@ A speedrun is a player's attempt to finish a game as quickly as possible.
 To accomplish a successful speedrun, a player needs deep knowledge of the game, its mechanics, and its controls \cite{speedrun}.
 But what drives people to play this or any other game over and over again? 
 Looking at a successful speedrun of Super Mario 64 120 stars \cite{Sm64Speed} done at Games Done Quick\footnote{\url{https://gamesdonequick.com/}}, a charity video game speedrun marathon, one can observe an excellent level of gameplay and flow. 
-\citeauthor{swink2008game} defines game flow or game feel in his book \textit{Game Feel} as:
+\cite{swink2008game} defines game flow or game feel in his book \textit{Game Feel} as:
 
 \begin{quote}
     Real-time control of virtual objects in a simulated space, emphasizing interactions through polish \cite{swink2008game}.
@@ -130,13 +80,16 @@ Game feel is built on three blocks:
 \end{enumerate}
 
 With respect to 3D Jump'n Runs, this means reasonable control and response of our player character, a game world that matches the player's movement parameters, e.g., his jump height and distance, and audio-visual cues that emphasize the player character's interactions in the world.
-To investigate a good movement flow, we first developed a set of movement mechanics, which are explained in Section \ref{Sec:Met}.
+To investigate a good movement flow, we first developed a set of movement mechanics, which are explained in Section \ref{Sec:Methodology}.
 We also investigate various presets for the movement parameters on which the mechanics are built.
 To do so, we visit different games and compare them in Section \ref{Sec:Evaluation}.
 We conclude our findings in section \ref{Sec:ConcFuture} and outline some future work.
 
+\section{Related Work}
+\label{Sec:RelatedWork}
+
 \section{Methodology}
-\label{Sec:Met}
+\label{Sec:Methodology}
 
 Before we implement any movement mechanics in \textit{Unreal Engine 5}\footnote{\url{https://www.unrealengine.com/en-US}}, we first need to talk about all the requirements necessary to create a dynamic player character.
 Then we talk about the polishing steps to make the character more connected to the game world.
@@ -157,10 +110,9 @@ With this, we now had all the tools we needed to create a compelling player char
 An overview of all the movement mechanics we have implemented in Unreal Engine 5 can be seen in figure \ref{fig:mechanics}.
 
 \begin{figure}[!ht]
-    \caption{Hierachically structured taxonomy of all movement states that the player character can enter in the game world.
-    }
     \centering
-    \includegraphics[width=0.8\textwidth]{images/mechanics.png}
+    \includegraphics[width=0.8\linewidth]{images/mechanics.png} % Adjust the width as needed
+    \caption{Hierarchically structured taxonomy of all movement states that the player character can enter in the game world.}
     \label{fig:mechanics}
 \end{figure}
 
@@ -196,7 +148,6 @@ For his steps when he lands on the ground and while he slides down a wall, we ad
 While he climbs, we added a pebble particle effect.
 All particle effects get stronger the more force is applied to the character, so when he slides down a wall, the dust cloud gets bigger the faster the character slides down.
 Last but not least, we have added different sound effects for the different jumps or steps/climbing.
-
 
 \section{Evaluation}
 \label{Sec:Evaluation}
@@ -257,13 +208,13 @@ After collecting and calculating all the movement parameters of the different ga
 Looking at the figure \ref{fig:walk_mov}, we can gain some useful insights between the movement parameters of the different games.
 
 \begin{figure}[!ht]
-    \caption{ Change of the player character's movement in three phases:
-    \textit{a)} the acceleration phase, starting from zero velocity (idle state) to max walk velocity (walk state), \textit{b)} the constant phase, moving at full walk speed for a fixed amount of time (\textit{0.5s}) and 
-    \textit{c)} the deceleration phase, to get from full walk speed (walk state) back to zero velocity (idle state).
-    Velocity is plotted on the z-axis over the time on the x-axis and the distance on the y-axis needed to go through the three phases. 
-    }
     \centering
-    \includegraphics[width=1.0\textwidth]{images/WalkMov.png}
+    \includegraphics[width=0.45\textwidth]{images/WalkMov.png} % Adjust the width as needed
+    \caption{Change of the player character's movement in three phases: \\
+    (a) the acceleration phase, starting from zero velocity (idle state) to max walk velocity (walk state), 
+    (b) the constant phase, moving at full walk speed for a fixed amount of time (0.5s), and 
+    (c) the deceleration phase, to get from full walk speed (walk state) back to zero velocity (idle state). \\
+    Velocity is plotted on the z-axis over time on the x-axis and distance on the y-axis needed to go through the three phases.}
     \label{fig:walk_mov}
 \end{figure}
 
@@ -273,46 +224,29 @@ Looking at the figure \ref{fig:walk_mov}, we can gain some useful insights betwe
 \textit{BanjoKazooie} takes the least time and the least distance to run and come to a stop again.
 All movement parameters are recorded and compared in the table \ref{tab:insightII}.
 
-% \begin{table*}[htbp]
-%     \centering
-%     \begin{tabular}{cccccc}
-%     \toprule
-%      & \textbf{Boss'n Run} & \textbf{Super Mario 64} & \textbf{Donkey Kong 64} & \textbf{Banjo Kazooie} \\
-%     \midrule
-%     \textbf{Velocity v ($\frac{\mathrm{m}}{\mathrm{s}}$)} & \textcolor{red}{6} & \textcolor{blue}{4} & 5.4 & 4.5 \\
-%     \textbf{Acceleration acc ($\frac{\mathrm{m}}{\mathrm{s^2}}$)} & \textcolor{red}{20} & \textcolor{blue}{8} & 12.8 & 18 \\
-%     \textbf{Time t ($\mathrm{s}$)} & 0.3 & \textcolor{blue}{0.5} & 0.42 & \textcolor{red}{0.25} \\
-%     \textbf{Distance d ($\mathrm{m}$)} & 0.9 & 1.0 & \textcolor{blue}{1.14} & \textcolor{red}{0.56} \\
-%     \bottomrule
-%     \end{tabular}
-%     \caption{A 4x4 Table with Improved Formatting and Corrected Color Coding}
-%     \label{tab:insightI}
-% \end{table*}
-\begin{table*}[htbp]
-    \centering
-    \begin{tabular}{cccccc}
-    \toprule
-     & \textbf{Boss'n Run} & \textbf{Super Mario 64} & \textbf{Donkey Kong 64} & \textbf{Banjo Kazooie} \\
-    \midrule
-    \textbf{Velocity v ($\frac{\mathrm{m}}{\mathrm{s}}$)} & \textcolor{red}{6} & \textcolor{blue}{4} & 5.4 & 4.5 \\
-    \textbf{Acceleration acc ($\frac{\mathrm{m}}{\mathrm{s^2}}$)} & \textcolor{red}{20} & \textcolor{blue}{8} & 12.8 & 18 \\
-    \textbf{Deceleration dec ($\frac{\mathrm{m}}{\mathrm{s^2}}$)} & \textcolor{red}{20} & \textcolor{blue}{8} & 12.8 & 18 \\
-    \textbf{Time t ($\mathrm{s}$)} & 1.1 & \textcolor{blue}{1.5} & 1.35 & \textcolor{red}{1.0} \\
-    \textbf{Distance d ($\mathrm{m}$)} & 4.8 & 4 & \textcolor{blue}{4.98} & \textcolor{red}{3.38} \\
-    \bottomrule
-    \end{tabular}
-    \caption{Movement parameters of the 4 games Boss'n Run, Super Mario 64, Donkey Kong 64 and Banjo Kazooie. 
-    For speed, acceleration and deceleration, the highest values are marked in red and the lowest values in blue.
-    For time and distance to reach maximum speed, the lowest values are marked in red and the highest values in blue.}
+\begin{table}[htbp]
+    \caption{Movement parameters of the games. For speed, acceleration, and deceleration, highest values are marked in red and lowest values in blue. For time and distance to reach maximum speed, lowest values are marked in red and highest values in blue.}
     \label{tab:insightII}
-\end{table*}
+    \centering
+    \begin{tabularx}{\linewidth}{l*{4}{>{\centering\arraybackslash}X}}
+    \toprule
+     & \textbf{Boss'n Run} & \textbf{Super Mario 64} & \textbf{Banjo Kazooie} & \textbf{Donkey Kong 64} \\
+    \midrule
+    \textbf{Velocity ($\frac{\mathrm{m}}{\mathrm{s}}$)} & \textcolor{red}{6} & \textcolor{blue}{4} & 4.5 & 5.4 \\
+    \textbf{Acceleration ($\frac{\mathrm{m}}{\mathrm{s^2}}$)} & \textcolor{red}{20} & \textcolor{blue}{8} & 18 & 12.8 \\
+    \textbf{Deceleration ($\frac{\mathrm{m}}{\mathrm{s^2}}$)} & \textcolor{red}{20} & \textcolor{blue}{8} & 18 & 12.8 \\
+    \textbf{Time (s)} & 1.1 & \textcolor{blue}{1.5} & \textcolor{red}{1.0} & 1.35 \\
+    \textbf{Distance (m)} & 4.8 & 4 & \textcolor{red}{3.38} & \textcolor{blue}{4.98} \\
+    \bottomrule
+    \end{tabularx}
+\end{table}
 
 Looking at the figure \ref{fig:jump} some useful information can be gained about the jump parameters of the 4 different games.
 
 \begin{figure}[!ht]
-    \caption{ Change of the player character's jump height (on the z-axis) at full walk speed, performing a normal jump (jump state), over the time in the air (on the x-axis) and the distance covered with the jump (on the y-axis).}
     \centering
-    \includegraphics[width=1.0\textwidth]{images/DJump.png}
+    \includegraphics[width=0.45\textwidth]{images/DJump.png}
+    \caption{Change of the player character's jump height (z-axis) at full walk speed, performing a normal jump (jump state), over the time in the air (x-axis) and the distance covered with the jump (y-axis).}
     \label{fig:jump}
 \end{figure}
 
@@ -322,24 +256,23 @@ Looking at the figure \ref{fig:jump} some useful information can be gained about
 \textit{Banjo Kazooie} has the lowest gravity and jump speed, but the longest time in the air of all.
 All jumping paramters are recorded and compared in table \ref{tab:insightIII}.
 
-\begin{table*}[htbp]
-    \centering
-    \begin{tabular}{cccccc}
-    \toprule
-     & \textbf{Boss'n Run} & \textbf{Super Mario 64} & \textbf{Donkey Kong 64} & \textbf{Banjo Kazooie} \\
-    \midrule
-    \textbf{Gravity g ($\frac{\mathrm{m}}{\mathrm{s^2}}$)} & -18.6 & \textcolor{red}{-20.7} & -20.2 & \textcolor{blue}{-14.0} \\
-    \textbf{Ground Velocity $v_{\text{g}}$ ($\frac{\mathrm{m}}{\mathrm{s}}$)} & \textcolor{red}{6} & \textcolor{blue}{4} & 5.4 & 4.5 \\
-    \textbf{Jump Velocity $v_{\text{j}}$ ($\frac{\mathrm{m}}{\mathrm{s}}$)} & 8.7 & \textcolor{red}{9.3} & 8.2 & \textcolor{blue}{7.3} \\
-    \textbf{Height h ($\mathrm{m}$)} & 2.03 & \textcolor{red}{2.09} & \textcolor{blue}{1.66} & 1.84 \\
-    \textbf{Time t ($\mathrm{s}$)} & 0.93 & 0.9 & \textcolor{blue}{0.81} & \textcolor{red}{1.0} \\
-    \textbf{Distance d ($\mathrm{m}$)} & \textcolor{red}{5.6} & \textcolor{blue}{3.6} & 4.4 & 4.5 \\
-    \bottomrule
-    \end{tabular}
-    \caption{Default jump parameters of the 4 games Boss'n Run, Super Mario 64, Donkey Kong 64 and Banjo Kazooie.
-    For all parameters, the highest values are marked in red and the lowest in blue.}
+\begin{table}[htbp]
+    \caption{Default jump parameters of the 4 games Boss'n Run, Super Mario 64, Donkey Kong 64, and Banjo Kazooie. For all parameters, the highest values are marked in red and the lowest in blue.}
     \label{tab:insightIII}
-\end{table*}
+    \centering
+    \begin{tabularx}{\linewidth}{l*{4}{>{\centering\arraybackslash}X}}
+    \toprule
+     & \textbf{Boss'n Run} & \textbf{Super Mario 64} & \textbf{Banjo Kazooie} & \textbf{Donkey Kong 64} \\
+    \midrule
+    \textbf{Gravity ($\frac{\mathrm{m}}{\mathrm{s^2}}$)} & -18.6 & \textcolor{red}{-20.7} & \textcolor{blue}{-14.0} & -20.2 \\
+    \textbf{Ground Velocity ($\frac{\mathrm{m}}{\mathrm{s}}$)} & \textcolor{red}{6} & \textcolor{blue}{4} & 4.5 & 5.4 \\
+    \textbf{Jump Velocity ($\frac{\mathrm{m}}{\mathrm{s}}$)} & 8.7 & \textcolor{red}{9.3} & \textcolor{blue}{7.3} & 8.2 \\
+    \textbf{Height (m)} & 2.03 & \textcolor{red}{2.09} & 1.84 & \textcolor{blue}{1.66} \\
+    \textbf{Time (s)} & 0.93 & 0.9 & \textcolor{red}{1.0} & \textcolor{blue}{0.81} \\
+    \textbf{Distance (m)} & \textcolor{red}{5.6} & \textcolor{blue}{3.6} & 4.5 & 4.4 \\
+    \bottomrule
+    \end{tabularx}
+\end{table}
 
 \subsection{Feedback from players}
 
@@ -364,19 +297,19 @@ Banjo Kazooie had the best overall gameplay, with Boss'n Run close behind and Su
 Of all the levels, the Super Mario 64 level was felt to be the hardest and Banjo Kazooie the easiest.
 
 \begin{figure}[!ht]
-    \caption{ The results of the feedback from the 14 participants who played different obstacle courses based on the 4 movement specifications: Boss'n Run (BnR), Super Mario 64 (SM64), Donkey Kong 64 (DK64), and Banjo Kazooie (BK).
-    This was done to determine how good the jumping mechanics felt, how the overall flow of the game felt, and how difficult the obstacle course was perceived to be. 
-    }
+    \caption{The results of the feedback from the 14 participants who played different obstacle courses based on the 4 movement specifications: Boss'n Run (BnR), Super Mario 64 (SM64), Donkey Kong 64 (DK64), and Banjo Kazooie (BK). This was done to determine how good the jumping mechanics felt, how the overall flow of the game felt, and how difficult the obstacle course was perceived to be.}
     \centering
-    \includegraphics[width=1.0\textwidth]{images/game_ratings.png}
+    \includegraphics[width=0.45\textwidth]{images/game_ratings}
     \label{fig:eval}
 \end{figure}
+
 
 One possible explanation for why Banjo Kazooie was perceived very well overall and Super Mario 64 poorly is the massive difference in gravity and resulting time in the air.
 The longer time spent in the air in the Banjo Kazooie preset allowed players to easily adjust their jump direction, making precise jumps easier and less frustrating.
 Several participants stated that Super Mario 64's preset character moved sluggishly compared to the other presets, which reduced gameplay enjoyment.
 This sluggish behavior can be explained by the slow acceleration/deceleration parameters.
 Other participants stated that regardless of the preset, everyone had an interesting gameplay experience and that it was just a matter of habit.
+
 
 \section{Conclusion \& Future Work}
 \label{Sec:ConcFuture}
@@ -387,7 +320,7 @@ We evaluated the movement flow on an objective level by collecting and comparing
 And on the subjective level, we had 14 participants play different levels based on the 4 motion presets of these games.
 Based on the current results, we can say that the Banjo Kazooie preset is the most promising, followed closely by our own Boss'n Run preset.
 The Super Mario 64 preset performed the worst. \\
-As mentioned in \ref{Sec:Met}, we implemented more movement options than we examined here. 
+As mentioned in \ref{Sec:Methodology}, we implemented more movement options than we examined here. 
 In a future work, it would be interesting to analyze and compare all the different jump types, as well as implement other motion states, such as swimming, which are common in games.
 
 \section*{Acknowledgement}
@@ -413,43 +346,7 @@ This allowed us to create a small game that we hope the participants enjoyed.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\printbibliography[
-title={References},
-notkeyword=game
-]
-
-\printbibliography[
-title={Ludography},
-keyword=game
-]
-%\printbibliography
-
-% \begin{thebibliography}{99}
-
-% \bibitem{c1} G. O. Young, ``Synthetic structure of industrial plastics (Book style with paper title and editor),'' 	in Plastics, 2nd ed. vol. 3, J. Peters, Ed.  New York: McGraw-Hill, 1964, pp. 15--64.
-% \bibitem{c2} W.-K. Chen, Linear Networks and Systems (Book style).	Belmont, CA: Wadsworth, 1993, pp. 123--135.
-% \bibitem{c3} H. Poor, An Introduction to Signal Detection and Estimation.   New York: Springer-Verlag, 1985, ch. 4.
-% \bibitem{c4} B. Smith, ``An approach to graphs of linear forms (Unpublished work style),'' unpublished.
-% \bibitem{c5} E. H. Miller, ``A note on reflector arrays (Periodical styleÑAccepted for publication),'' IEEE Trans. Antennas Propagat., to be publised.
-% \bibitem{c6} J. Wang, ``Fundamentals of erbium-doped fiber amplifiers arrays (Periodical styleÑSubmitted for publication),'' IEEE J. Quantum Electron., submitted for publication.
-% \bibitem{c7} C. J. Kaufman, Rocky Mountain Research Lab., Boulder, CO, private communication, May 1995.
-% \bibitem{c8} Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, ``Electron spectroscopy studies on magneto-optical media and plastic substrate interfaces(Translation Journals style),'' IEEE Transl. J. Magn.Jpn., vol. 2, Aug. 1987, pp. 740--741 [Dig. 9th Annu. Conf. Magnetics Japan, 1982, p. 301].
-% \bibitem{c9} M. Young, The Techincal Writers Handbook.  Mill Valley, CA: University Science, 1989.
-% \bibitem{c10} J. U. Duncombe, ``Infrared navigationÑPart I: An assessment of feasibility (Periodical style),'' IEEE Trans. Electron Devices, vol. ED-11, pp. 34--39, Jan. 1959.
-% \bibitem{c11} S. Chen, B. Mulgrew, and P. M. Grant, ``A clustering technique for digital communications channel equalization using radial basis function networks,'' IEEE Trans. Neural Networks, vol. 4, pp. 570--578, July 1993.
-% \bibitem{c12} R. W. Lucky, ``Automatic equalization for digital communication,'' Bell Syst. Tech. J., vol. 44, no. 4, pp. 547--588, Apr. 1965.
-% \bibitem{c13} S. P. Bingulac, ``On the compatibility of adaptive controllers (Published Conference Proceedings style),'' in Proc. 4th Annu. Allerton Conf. Circuits and Systems Theory, New York, 1994, pp. 8--16.
-% \bibitem{c14} G. R. Faulhaber, ``Design of service systems with priority reservation,'' in Conf. Rec. 1995 IEEE Int. Conf. Communications, pp. 3--8.
-% \bibitem{c15} W. D. Doyle, ``Magnetization reversal in films with biaxial anisotropy,'' in 1987 Proc. INTERMAG Conf., pp. 2.2-1--2.2-6.
-% \bibitem{c16} G. W. Juette and L. E. Zeffanella, ``Radio noise currents n short sections on bundle conductors (Presented Conference Paper style),'' presented at the IEEE Summer power Meeting, Dallas, TX, June 22--27, 1990, Paper 90 SM 690-0 PWRS.
-% \bibitem{c17} J. G. Kreifeldt, ``An analysis of surface-detected EMG as an amplitude-modulated noise,'' presented at the 1989 Int. Conf. Medicine and Biological Engineering, Chicago, IL.
-% \bibitem{c18} J. Williams, ``Narrow-band analyzer (Thesis or Dissertation style),'' Ph.D. dissertation, Dept. Elect. Eng., Harvard Univ., Cambridge, MA, 1993. 
-% \bibitem{c19} N. Kawasaki, ``Parametric study of thermal and chemical nonequilibrium nozzle flow,'' M.S. thesis, Dept. Electron. Eng., Osaka Univ., Osaka, Japan, 1993.
-% \bibitem{c20} J. P. Wilkinson, ``Nonlinear resonant circuit devices (Patent style),'' U.S. Patent 3 624 12, July 16, 1990. 
-
-% \end{thebibliography}
-
-
-
+\bibliographystyle{IEEEtran}
+\bibliography{literature.bib}
 
 \end{document}
