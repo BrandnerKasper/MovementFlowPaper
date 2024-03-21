@@ -1,6 +1,6 @@
-PWD c:\dev\uni\Paper_Submit
+PWD c:\dev\uni\MovementFlowPaper
 INPUT C:\Users\royal\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\dev\uni\Paper_Submit\conference_101719.tex
+INPUT c:\dev\uni\MovementFlowPaper\conference_101719.tex
 OUTPUT conference_101719.log
 INPUT .\IEEEtran.cls
 INPUT IEEEtran.cls
