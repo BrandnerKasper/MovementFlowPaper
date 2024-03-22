@@ -27,17 +27,17 @@
 \author{\IEEEauthorblockN{Tobias Brandner}
 \IEEEauthorblockA{\textit{Julius Maximilian University} \\
 Würzburg, Germany \\
-tobias.brandner@\\stud-mail.uni-wuerzburg.de}
+tobias.brandner\\@stud-mail.uni-wuerzburg.de}
 \and
 \IEEEauthorblockN{Marc Mußmann}
 \IEEEauthorblockA{\textit{Julius Maximilian University} \\
 Würzburg, Germany \\
-marc.mussmann@\\stud-mail.uni-wuerzburg.de}
+marc.mussmann\\@stud-mail.uni-wuerzburg.de}
 \and
 \IEEEauthorblockN{Sebastian von Mammen}
 \IEEEauthorblockA{\textit{Julius Maximilian University} \\
 Würzburg, Germany \\
-sebastian.von.mammen@\\uni-wuerzburg.de}
+sebastian.von.mammen\\@uni-wuerzburg.de}
 }
 
 \maketitle
@@ -53,25 +53,22 @@ sebastian.von.mammen@\\uni-wuerzburg.de}
 \end{abstract}
 
 \begin{IEEEkeywords}
-component, formatting, style, styling, insert
+Movement Flow, 3D Jump'n Run, Procedural Content Generation
 \end{IEEEkeywords}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 
-Super Mario 64 \cite{SuperMario64} is one of the first 3D Jump'n Runs and was released in 1995.
-To this day it is one of the most played games in terms of speedrunning \cite{SpeedrunDotCom}.
-A speedrun is a player's attempt to finish a game as quickly as possible.
-To accomplish a successful speedrun, a player needs deep knowledge of the game, its mechanics, and its controls \cite{speedrun}.
-But what drives people to play this or any other game over and over again? 
-Looking at a successful speedrun of Super Mario 64 120 stars \cite{Sm64Speed} done at Games Done Quick\footnote{\url{https://gamesdonequick.com/}}, a charity video game speedrun marathon, one can observe an excellent level of gameplay and flow. 
-\cite{swink2008game} defines game flow or game feel in his book \textit{Game Feel} as:
+Super Mario Jump'n Runs are one of the best known and most popular of their genre on the market.
+But why are they so much fun to play?
+The short answer is: Flow.
+Steve Swink defines game flow in his book \textit{Game Feel} as:
 
 \begin{quote}
     Real-time control of virtual objects in a simulated space, emphasizing interactions through polish \cite{swink2008game}.
 \end{quote}
 
-Game feel is built on three blocks:
+The game flow is therefore based on three key elements:
 
 \begin{enumerate}
     \item Real-Time Control, e.g., the input processing of the player entity or entities.
@@ -79,14 +76,20 @@ Game feel is built on three blocks:
     \item Polish, e.g., sound effects, animations, and particle effects played when interacting with the world
 \end{enumerate}
 
-With respect to 3D Jump'n Runs, this means reasonable control and response of our player character, a game world that matches the player's movement parameters, e.g., his jump height and distance, and audio-visual cues that emphasize the player character's interactions in the world.
-To investigate a good movement flow, we first developed a set of movement mechanics, which are explained in Section \ref{Sec:Methodology}.
-We also investigate various presets for the movement parameters on which the mechanics are built.
-To do so, we visit different games and compare them in Section \ref{Sec:Evaluation}.
-We conclude our findings in section \ref{Sec:ConcFuture} and outline some future work.
+With respect to 3D Jump'n Runs, this means: Reasonable control and response of our player character, a game world that matches the player's movement parameters, e.g., his jump height and distance, and audio-visual cues that emphasize the player character's interactions in the world.
+To investigate and analyze movement flow, we first developed a broad set of movement mechanics typically found in 3D Jump'n Runs.
+To choose the right parameters for these mechanics, we analyze three influential games in the genre: Super Mario 64 \cite{SuperMario64}, Banjo Kazooie \cite{BanjoKazooie} and Donkey Kong 64 \cite{DonkeyKong64}.
+Based on this analysis we added our own configuration called Boss'n Run.
+To evaluate these four configurations, we procedural generated an obstacle course based on each indivdual set of movement paramters. 
+! MARC PLEASE HELP! INTRODUCTIONS ARE SCARY! 
+Maybe 2-3 sentences about PCG and how they are restrained in regards of movement parameters as well as they are always solvable!
 
 \section{Related Work}
 \label{Sec:RelatedWork}
+
+Designing the optimal movement mechanics for a game is a elaborate task. 
+Choosing the right parameters for your characters jump or run invovles an iterative process of gathering feedback and fine-tuning the parameters.
+
 
 \section{Methodology}
 \label{Sec:Methodology}
