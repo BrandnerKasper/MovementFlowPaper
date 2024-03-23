@@ -59,16 +59,16 @@ Movement Flow, 3D Jump'n Run, Procedural Content Generation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 
-Super Mario Jump'n Runs are one of the best known and most popular of their genre on the market.
-But why are they so much fun to play?
-The short answer is: Flow.
-Steve Swink defines game flow in his book \textit{Game Feel} as:
+The Super Mario Bros series is one of the best-known and most popular platformers on the market.
+But why is it so much fun to play?
+In his book \textit{Game Feel}, Steve Swink describes this phenomenon as game flow with the words:
+%Steve Swink defines game flow in his book \textit{Game Feel} as:
 
 \begin{quote}
     Real-time control of virtual objects in a simulated space, emphasizing interactions through polish \cite{swink2008game}.
 \end{quote}
 
-The game flow is therefore based on three key elements:
+Game flow is therefore based on three key elements:
 
 \begin{enumerate}
     \item Real-Time Control, e.g., the input processing of the player entity or entities.
@@ -80,7 +80,7 @@ With respect to 3D Jump'n Runs, this means: Reasonable control and response of o
 To investigate and analyze movement flow, we first developed a broad set of movement mechanics typically found in 3D Jump'n Runs.
 To choose the right parameters for these mechanics, we analyze three influential games in the genre: Super Mario 64 \cite{SuperMario64}, Banjo Kazooie \cite{BanjoKazooie} and Donkey Kong 64 \cite{DonkeyKong64}.
 Based on this analysis we added our own configuration called Boss'n Run.
-To evaluate these four configurations, we procedural generated an obstacle course based on each indivdual set of movement paramters. 
+To evaluate these four configurations, we procedural generated a level based on each indivdual set of movement paramters. 
 ! MARC PLEASE HELP! INTRODUCTIONS ARE SCARY! 
 Maybe 2-3 sentences about PCG and how they are restrained in regards of movement parameters as well as they are always solvable!
 
@@ -88,14 +88,20 @@ Maybe 2-3 sentences about PCG and how they are restrained in regards of movement
 \label{Sec:RelatedWork}
 
 Designing the optimal movement mechanics for a game is a elaborate task. 
-Choosing the right parameters for your characters jump or run invovles an iterative process of gathering feedback and fine-tuning the parameters.
-
+Choosing the right parameters for your characters jump and run invovles an iterative process of gathering feedback and fine-tuning the parameters.
+Therefore we propose an analytical approach:
+All movement parameters are compared and visualized as graphs.
+A jump can be defined as a three dimensional curve with the time and distance in x- and y-plane and height on the z-axis.
+A similar definiton can be made for the movement again with the time and distance in x- and y-plane but this time the velocity on the z-axis \cite{gameMakerTool}.
+These parameters are tightly coupled to the sourunding game world, which makes it hard to explore vastly different values as it involves changing your level layout.
+! MARC PLEASE HELP! 
+PCG comes to rescue since we can focus solely on analyzing different movement parameters and talk about freedom if you are at it ;)
 
 \section{Methodology}
 \label{Sec:Methodology}
 
-Before we implement any movement mechanics in \textit{Unreal Engine 5}\footnote{\url{https://www.unrealengine.com/en-US}}, we first need to talk about all the requirements necessary to create a dynamic player character.
-Then we talk about the polishing steps to make the character more connected to the game world.
+We designed and implemented a 3D Jump'n Run with a broad set of movement mechanics in \textit{Unreal Engine 5}\footnote{\url{https://www.unrealengine.com/en-US}} 
+as well as a procedural level generator with \textit{Blender's} Geometry Nodes\footnote{\url{https://www.blender.org/}}.
 
 \subsection{Prerequisites}
 

@@ -40,6 +40,12 @@ S.~Swink, \emph{Game feel: a game designer's guide to virtual sensation}.\hskip
   \url{https://www.nintendo.de/Spiele/Nintendo-64/Donkey-Kong-64-269459.html},
   1999, last accessed 2023-07-26.
 
+\bibitem{gameMakerTool}
+\BIBentryALTinterwordspacing
+G.~M. Toolkit. Why does celeste feel so good to play? [Online]. Available:
+  \url{https://www.patreon.com/posts/28582857}
+\BIBentrySTDinterwordspacing
+
 \bibitem{rigging}
 \BIBentryALTinterwordspacing
 P.~LLC. What is 3d rigging? [Online]. Available:
@@ -56,12 +62,6 @@ E.~Games. Ik rig retargeting. [Online]. Available:
 \BIBentryALTinterwordspacing
 GDC. Math for game programmers: Building a better jump. [Online]. Available:
   \url{https://www.youtube.com/watch?v=hG9SzQxaCm8&t=461s}
-\BIBentrySTDinterwordspacing
-
-\bibitem{gameMakerTool}
-\BIBentryALTinterwordspacing
-G.~M. Toolkit. Why does celeste feel so good to play? [Online]. Available:
-  \url{https://www.patreon.com/posts/28582857}
 \BIBentrySTDinterwordspacing
 
 \bibitem{dataAsset}
